@@ -7,7 +7,7 @@ import hljs from 'highlight.js/lib/core'
 import javascript from 'highlight.js/lib/languages/javascript'
 
 /** Component that shows the highlighted example code */
-export default class CodeExample extends React.Component {
+export default class CodeExample extends React.Component<{ children: React.ReactNode }> {
   componentDidMount() {
     hljs.registerLanguage('javascript', javascript)
     // @ts-expect-error TS(2339) FIXME: Property 'element' does not exist on type 'CodeExa... Remove this comment to see the full error message
