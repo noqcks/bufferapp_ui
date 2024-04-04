@@ -10,7 +10,7 @@ import { grayDarker, white } from '../style/colors'
 
 export const TooltipWrapper = styled.div``
 
-export const TooltipStyled: any = styled(Tooltip)`
+export const TooltipStyled: any = styled(Tooltip)<{ opacity: number | string }>`
   opacity: ${(props) => props.opacity.toString()};
 `
 
