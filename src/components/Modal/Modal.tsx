@@ -19,7 +19,7 @@ export function hasDismissedCookie(cookie, cookieKey) {
   return false
 }
 
-class Modal extends React.Component {
+class Modal extends React.Component<{ children?: React.ReactNode; }, any> {
   // @ts-expect-error TS(7006) FIXME: Parameter 'props' implicitly has an 'any' type.
   constructor(props) {
     super(props)
