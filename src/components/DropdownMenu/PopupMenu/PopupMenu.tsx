@@ -194,14 +194,7 @@ export default class PopupMenu extends React.Component {
               />
             )
             return (
-              <Tooltip
-                // @ts-expect-error TS(2322) FIXME: Type '{ children: any; customLabel: Element; posit... Remove this comment to see the full error message
-                customLabel={tooltip}
-                position="left"
-                verticalAlign="top"
-              >
-                {children}
-              </Tooltip>
+              {children}
             )
           }}
         >
