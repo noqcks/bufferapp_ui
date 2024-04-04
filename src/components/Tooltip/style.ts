@@ -31,7 +31,7 @@ export const TooltipStyle = {
 }
 
 export const Label = styled.label<{ color: string; isHotkey?: boolean }>`
-  color: ${(props): string => props.color};
+  color: ${(props) => props.color};
   font-family: ${fontFamily};
   font-size: ${(props): string => (props.isHotkey ? '10px' : fontSizeSmall)};
   margin-left: ${(props): string => (props.isHotkey ? '8px' : '0')};
