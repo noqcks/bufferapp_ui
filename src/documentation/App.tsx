@@ -1,6 +1,7 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
-import { Redirect, Route, Switch } from 'react-router-dom'
+import { Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import DocumentationPages from './app/AppContainer'
 
 const App = () => (
