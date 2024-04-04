@@ -40,10 +40,12 @@ export const Label = styled.label<{ color: string; isHotkey?: boolean }>`
   cursor: inherit;
 `
 
+import styled from 'styled-components';
+
 export const HotkeyWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-`
+`;
 
 export const LabelWrapper = styled.div``
