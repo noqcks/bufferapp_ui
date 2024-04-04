@@ -4,7 +4,7 @@ import '@reach/tooltip/styles.css'
 import * as Styles from './style'
 import { gray, white } from '../style/colors'
 
-class Tooltip extends React.Component {
+class Tooltip extends React.Component<any, any> {
   tooltipWrapper: any = null
 
   // @ts-expect-error TS(7006) FIXME: Parameter 'props' implicitly has an 'any' type.
