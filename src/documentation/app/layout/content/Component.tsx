@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import styled, { css, FlattenSimpleInterpolation } from 'styled-components'
+import styled, { css } from 'styled-components'
 import Example from './components/Example'
 import Props from './components/Props'
 import Heading from './components/Heading'
