@@ -201,8 +201,7 @@ class Carousel extends React.Component {
           Slide
           {currentSlideIndex + 1}
           out of
-          {/* @ts-expect-error TS(2533) FIXME: Object is possibly 'null' or 'undefined'. */}
-          {children.length}
+          {React.Children.count(children)}
         </Announcement>
         {React.Children.count(children) > 1 && !rightNavigation && (
           // @ts-expect-error TS(2769) FIXME: No overload matches this call.
