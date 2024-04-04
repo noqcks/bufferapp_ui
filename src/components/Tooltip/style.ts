@@ -28,7 +28,7 @@ export const TooltipStyle = {
   maxWidth: '200px',
   whiteSpace: 'normal',
   zIndex: 9999,
-}
+};
 
 export const Label = styled.label<{ color: string; isHotkey?: boolean }>`
   color: ${(props) => props.color};
