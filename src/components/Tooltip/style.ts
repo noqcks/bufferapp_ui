@@ -11,7 +11,7 @@ import { grayDarker, white } from '../style/colors'
 export const TooltipWrapper = styled.div``
 
 export const TooltipStyled: any = styled(Tooltip)`
-  opacity: ${(props: { opacity: number | string }): string => props.opacity.toString()};
+  opacity: ${(props) => props.opacity.toString()};
 `
 
 export const TooltipStyle = {
